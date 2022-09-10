@@ -1,0 +1,38 @@
+.category-container {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  overflow-y: scroll;
+}
+
+.category-container::-webkit-scrollbar {
+  display: none;
+}
+
+.category-list {
+  width: 50%;
+  padding: 20px 10px;
+  border: 2px solid rgba(172, 172, 172, 0.5);
+  color: #fff;
+  border-radius: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.category-list:hover {
+  background-color: #1f93ff;
+  transition: all 0.3s;
+  border: 2px solid #fff;
+}
+
+.container-movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.movie-item {
+  width: 280px;
+  margin: 20px 10px;
+}

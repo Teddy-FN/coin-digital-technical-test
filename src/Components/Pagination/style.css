@@ -1,0 +1,21 @@
+.pagination-wrapper {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.pagination-btn:hover {
+  background-color: #1f93ff;
+  transition: all 0.3s;
+  border: 2px solid #fff;
+}
+
+.pagination-btn {
+  padding: 10px 15px;
+  border: 2px solid rgba(214, 214, 214, 0.421);
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}

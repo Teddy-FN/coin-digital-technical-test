@@ -1,0 +1,74 @@
+.list {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-site .site {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-site:hover {
+  background-color: rgba(255, 0, 0, 0.675);
+}
+
+.btn-site {
+  background-color: rgb(255, 0, 0);
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  width: 20%;
+}
+
+.genresList {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.spokenList {
+  background-color: rgba(0, 255, 26, 0.5);
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(214, 214, 214, 0.421);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.detail-movie-original-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.detail-movie-title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.detail-movie-overview {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.detail-movie-production-companies {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img-logo {
+  height: 100%;
+  width: 100%;
+}
